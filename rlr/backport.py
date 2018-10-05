@@ -1,3 +1,5 @@
+from future.utils import viewitems
+
 MULTIPROCESSING = True
 # Deal with Mac OS X issuse
 config_info = str([value for key, value in
